@@ -1,10 +1,10 @@
 const BLOG = {
   title: '禅与摩托车维修艺术',
   author: 'Titan',
-  email: 'xxtdev@gmail.com',
-  link: 'https://nobelium.vercel.app',
-  description: '写点代码，讲点故事',
-  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  email: 'xietian19941007@gmail.com',
+  link: 'https://qingtian.life',
+  description: '“写点代码 讲点故事”',
+  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
@@ -17,7 +17,7 @@ const BLOG = {
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/craigaryhart',
+  socialLink: 'https://twitter.com/tian0o02',
   seo: {
     keywords: ['Blog', 'Website', '前端', '全栈', '摩托车', '维修艺术'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
