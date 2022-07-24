@@ -1,7 +1,7 @@
 const BLOG = {
   title: '禅与摩托车维修艺术',
   author: 'Titan',
-  email: 'xietian19941007@gmail.com',
+  email: 'xxtdev@gmail.com',
   link: 'https://qingtian.life',
   description: '“写点代码 讲点故事”',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
