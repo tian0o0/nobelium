@@ -25,6 +25,12 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
             content={BLOG.seo.googleSiteVerification}
           />
         )}
+        {BLOG.seo.baiduSiteVerification && (
+          <meta
+            name="baidu-site-verification"
+            content={BLOG.seo.baiduSiteVerification}
+          />
+        )}
         {BLOG.seo.keywords && (
           <meta name="keywords" content={BLOG.seo.keywords.join(', ')} />
         )}

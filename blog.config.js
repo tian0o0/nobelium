@@ -20,7 +20,8 @@ const BLOG = {
   socialLink: 'https://twitter.com/tian0o02',
   seo: {
     keywords: ['Titan', '武汉理工大学', '谢天', '谢天的博客', '前端博客', 'Node.js全栈', '摩托车维修艺术', '禅与摩托车维修艺术'],
-    googleSiteVerification: '3rBhLQRhsweGUzWzCUEL1YPfuPo2fQxDXL_boE_EyJk' // Remove the value or replace it with your own google site verification code
+    googleSiteVerification: '3rBhLQRhsweGUzWzCUEL1YPfuPo2fQxDXL_boE_EyJk',
+    baiduSiteVerification: 'code-KNVrxmsPZy'
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
   // notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
