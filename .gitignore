@@ -38,3 +38,5 @@ yarn.lock
 .vercel
 public/robots.txt
 public/sitemap.xml
+
+urls.txt
