@@ -22,7 +22,7 @@ const NavBar = () => {
                 className="block ml-4 text-black dark:text-gray-50 nav"
               >
                 <Link href={link.to}>
-                  <a className='nes-btn'>{link.name}</a>
+                  <a className='nes-text'>{link.name}</a>
                 </Link>
               </li>
             )
