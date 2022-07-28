@@ -1,5 +1,4 @@
-/* NOTION CSS OVERRIDE */
-
+NOTION CSS OVERRIDE
 .notion {
   @apply text-gray-600 dark:text-gray-300;
   overflow-wrap: break-word;

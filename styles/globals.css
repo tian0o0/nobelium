@@ -1,6 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: ZpixLocal;
+  src: url('/fonts/Zpix.woff2') format('woff2'),
+       url('/fonts/Zpix.ttf')  format('truetype');
+}
+@font-face {
+  font-family: ZpixOnline;
+  src: url(https://zpix.now.sh/zpix.woff2?v2021-03-21);
+}
 @font-face {
   font-family: 'IBM Plex Sans';
   font-weight: 100 900;
@@ -138,4 +148,10 @@ nav {
     backdrop-filter: none;
     @apply bg-day bg-opacity-90 dark:bg-night dark:bg-opacity-90;
   }
+}
+
+.notion,
+.notion-code,
+code {
+  font-family: ZpixLocal, ZpixOnline !important;
 }

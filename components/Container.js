@@ -67,6 +67,10 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
             <meta property="article:author" content={BLOG.author} />
           </>
         )}
+        {/* <link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" /> */}
+        {/* <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" /> */}
+        {/* https://zpix.vercel.app/zpix.woff2?v2021-03-21 */}
+        <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
       </Head>
       <div
         className={`wrapper ${
