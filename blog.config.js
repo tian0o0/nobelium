@@ -3,7 +3,7 @@ const BLOG = {
   author: 'Titan',
   email: 'xxtdev@gmail.com',
   link: 'https://qingtian.life',
-  description: '写点代码 讲点故事',
+  description: '来干杯鸭',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -17,9 +17,9 @@ const BLOG = {
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/tian0o02',
+  socialLink: 'https://space.bilibili.com/7230077',
   seo: {
-    keywords: ['Titan', '武汉理工大学', '谢天', '谢天的博客', '前端博客', 'Node.js全栈', '摩托车维修艺术', '禅与摩托车维修艺术'],
+    keywords: ['来干杯鸭', 'Titan', '武汉理工大学', '谢天', '谢天的博客', '前端博客', 'Node.js全栈', '摩托车维修艺术', '禅与摩托车维修艺术'],
     googleSiteVerification: '3rBhLQRhsweGUzWzCUEL1YPfuPo2fQxDXL_boE_EyJk',
     baiduSiteVerification: 'code-KNVrxmsPZy'
   },

@@ -1,5 +1,5 @@
 import BLOG from '@/blog.config'
-import Vercel from '@/components/Vercel'
+// import Vercel from '@/components/Vercel'
 const Footer = ({ fullWidth }) => {
   const d = new Date()
   const y = d.getFullYear()
@@ -14,10 +14,10 @@ const Footer = ({ fullWidth }) => {
       <div className="my-4 text-sm leading-6">
         <div className="flex align-baseline justify-between flex-wrap">
           <p>
-            © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
+            © 来干杯鸭 {from === y || !from ? y : `${from} - ${y}`}
           </p>
           <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">鄂ICP备2022007840号-1</a>
-          <Vercel />
+          {/* <Vercel /> */}
         </div>
       </div>
     </div>
