@@ -67,8 +67,6 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
             <meta property="article:author" content={BLOG.author} />
           </>
         )}
-        <link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
-        {/* https://zpix.vercel.app/zpix.woff2?v2021-03-21 */}
       </Head>
       <div
         className={`wrapper ${

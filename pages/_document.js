@@ -14,8 +14,27 @@ class MyDocument extends Document {
         className={BLOG.appearance === 'dark' ? 'dark' : undefined}
       >
         <Head>
-          {BLOG.font && BLOG.font === 'serif'
+          <link
+            rel="preload"
+            href="/fonts/zpix.woff2"
+            as="font"
+            type="font/woff2"
+            crossOrigin="anonymous"
+          />
+          {/* {BLOG.font === 'zpix'
             ? (
+            <>
+              <link
+                rel="preload"
+                href="/fonts/zpix.woff2"
+                as="font"
+                type="font/woff2"
+                crossOrigin="anonymous"
+              />
+            </>
+              )
+            : BLOG.font === 'serif'
+              ? (
             <>
               <link
                 rel="preload"
@@ -32,8 +51,8 @@ class MyDocument extends Document {
                 crossOrigin="anonymous"
               />
             </>
-              )
-            : (
+                )
+              : (
             <>
               <link
                 rel="preload"
@@ -50,7 +69,7 @@ class MyDocument extends Document {
                 crossOrigin="anonymous"
               />
             </>
-              )}
+                )} */}
 
           {['zh', 'ja', 'ko'].includes(
             BLOG.lang.slice(0, 2).toLocaleLowerCase()
@@ -99,6 +118,7 @@ class MyDocument extends Document {
             <meta name="theme-color" content={BLOG.appearance === 'dark' ? BLOG.darkBackground : BLOG.lightBackground} />
               )
           }
+          <link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
         </Head>
         <body className="bg-day dark:bg-night">
           <Main />

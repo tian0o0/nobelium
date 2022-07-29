@@ -24,8 +24,8 @@ module.exports = {
       },
       fontFamily: {
         // ...fontFamily.sans, ...fontSansCJK
-        sans: ['ZpixLocal', 'ZpixOnline'],
-        serif: ['ZpixLocal', 'ZpixOnline'],
+        sans: ['zpix'],
+        serif: ['zpix'],
         noEmoji: [
           'ui-sans-serif',
           'system-ui',
