@@ -1,5 +1,5 @@
 const BLOG = {
-  title: '禅与摩托车维修艺术 - 谢天的博客',
+  title: '禅与摩托车维修艺术',
   author: 'Titan',
   email: 'xxtdev@gmail.com',
   link: 'https://qingtian.life',
@@ -17,7 +17,7 @@ const BLOG = {
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://space.bilibili.com/7230077',
+  socialLink: 'https://twitter.com/tian0o02',
   seo: {
     keywords: ['来干杯鸭', 'Titan', '武汉理工大学', '谢天', '谢天的博客', '前端博客', 'Node.js全栈', '摩托车维修艺术', '禅与摩托车维修艺术'],
     googleSiteVerification: '3rBhLQRhsweGUzWzCUEL1YPfuPo2fQxDXL_boE_EyJk',
