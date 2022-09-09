@@ -3,7 +3,7 @@ const BLOG = {
   author: 'Titan',
   email: 'xxtdev@gmail.com',
   link: 'https://qingtian.life',
-  description: '干杯鸭',
+  description: '',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
