@@ -14,13 +14,13 @@ class MyDocument extends Document {
         className={BLOG.appearance === 'dark' ? 'dark' : undefined}
       >
         <Head>
-          {/* <link
+          <link
             rel="preload"
-            href="/fonts/zpix.woff2"
+            href="https://cdn.qingtian.life/zpix.woff2"
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
-          /> */}
+          />
           {/* {BLOG.font === 'zpix'
             ? (
             <>
